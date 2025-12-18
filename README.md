@@ -64,6 +64,20 @@ To run the test suite, use:
 poetry run pytest ./tests
 ```
 
+## Running the Games
+
+### Mastermind Game
+To play the Mastermind game, run:
+```bash
+python mastermind.py
+```
+
+### Yes/No Guessing Game
+To play the Yes/No Guessing game, run:
+```bash
+python yes_no_game.py
+```
+
 ## API Documentation
 FastAPI automatically generates interactive API documentation. Once the application is running, you can access it at:
 - Swagger UI: `http://127.0.0.1:8000/docs`
