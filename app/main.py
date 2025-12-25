@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from app.api.routes import api_router
-from app.api.health import router as health_router
+from app.api.health import health_router
 
 app = FastAPI(
     title="My FastAPI Service",
